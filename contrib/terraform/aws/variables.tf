@@ -25,7 +25,7 @@ data "aws_ami" "distro" {
 
   filter {
     name   = "name"
-    values = ["debian-10-amd64-*"]
+    values = ["debian-10-amd64-20220911-*"]
   }
 
   filter {
